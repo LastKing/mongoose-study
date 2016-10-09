@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-study",
+  "version": "0.0.1",
+  "description": "mongoose study",
+  "main": "Test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LastKing/mongoose-study1.git"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "toonew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LastKing/mongoose-study1/issues"
+  },
+  "homepage": "https://github.com/LastKing/mongoose-study1#readme",
+  "dependencies": {
+    "mongoose": "^4.6.3"
+  }
+}
