@@ -17,7 +17,8 @@ async function personTest() {
   console.log(test1);//这个返回的是query
 
   var test2 = Person.find({}).select('_id');  //query中带有 then方法，可以await
-  console.log( test2); //await  之后  返回的query 会变化成 model
+  var result = await test2;                  //await之后  返回的query 会变化成 model
+  console.log(result);
 }
 
 personTest();
